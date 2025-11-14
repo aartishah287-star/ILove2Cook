@@ -1,0 +1,29 @@
+name: ilove2cook
+description: A minimal scaffold for the ILove2Cook Flutter app.
+publish_to: 'none'
+version: 0.0.1
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^5.0.0
+  shared_preferences: ^2.1.1
+  flutter_svg: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.10.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.svg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.svg
